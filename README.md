@@ -44,6 +44,7 @@ After installation, you can run the application by executing:
 ```
 open project in selected IDE (I used IntelliJ)
 navigate to PetAppApplication and run project
+To interact with the API endpoints use Postman to query or send pet information as necessary
 ```
 Contact
 If you have any questions or need further information, please contact:
