@@ -1,6 +1,6 @@
 # pet-demo
 Application for creating and persisting pet information, and the ability to confirm whether specified pet is eligible to join owner on boat rental
-# Pet App - JPA
+# Pet App
 
 A simple application to persist pet data using Java Persistence API (JPA).
 
@@ -34,7 +34,7 @@ To install and set up the project, follow these steps:
 
 2. Navigate to the project directory:
     ```
-    cd pet-app-jpa
+    cd pet-app
     ```
 
 ## Usage
