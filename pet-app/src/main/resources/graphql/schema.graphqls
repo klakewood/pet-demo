@@ -1,0 +1,23 @@
+type Query {
+    getAllPetsHandler: [Pet]
+
+}
+
+type Mutation {
+    savePetHandler(petDTO: PetDTO): Pet
+}
+type Pet {
+    id: ID!
+    name: String!
+    breed: String!
+    weight: Float!
+    isVaccinated: Boolean!
+    trainingLevel: Int!
+}
+input PetDTO{
+    name: String!
+    breed: String!
+    weight: Float!
+    isVaccinated: Boolean!
+    trainingLevel: Int!
+}
